@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	height: 100px;
+	border-bottom: 2px solid #505050;
+}
+
+#content{
+	margin-left: 200px;
+}
+
+#footer{
+	clear: both;
+	height: 50px;
+	border-top: 2px solid #505050;
+}
+
+#livros{
+	clear: both;
+	max-width: 1000px;
+}
+
+#clear{
+	clear: both;
+}
+
+.logo{
+	float: left;
+	width: 300px;
+	height: 100%;
+	border: 0px solid #505050;
+}
+
+.usermenu{
+	height: 50%;
+}
+
+.busca{
+	position: relative;
+}
+
+.produto{
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	width: 200px;
+	height: 250px;
+	border: 2px solid #CCCCCC;
+}
+
+.imgproduto{
+	width: 200px;
+	height: 200px;
+	border: 0px solid #CCCCCC;
+}
