@@ -1,7 +1,7 @@
 <?php
 class Livros{
 
-	protected $conexao;
+	protected $banco;
 	
 	public function __construct(){
 		$this->banco = Banco::instanciar();
