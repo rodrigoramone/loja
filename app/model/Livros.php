@@ -10,7 +10,7 @@ class Livros{
 	public function listar(){
 		
 		return $this->banco->consultar("SELECT l . * , f . *
-				                FROM livros l
+				        FROM livros l
 						INNER JOIN fotos f ON l.id = f.id_livro");
 	}
 	
