@@ -4,7 +4,9 @@ class Livros{
 	protected $banco;
 	
 	public function __construct(){
+		
 		$this->banco = Banco::instanciar();
+		
 	}
 	
 	public function listar(){
